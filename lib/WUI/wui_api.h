@@ -16,7 +16,7 @@
 
 #include "netif_settings.h"
 
-#define PRUSA_LINK_USERNAME "maker"
+#define PRUSA_LINK_USERNAME "nolop"
 
 #define MAC_ADDR_STR_LEN 18 // length of mac address string ("MM:MM:MM:SS:SS:SS" + 0)
 #define MAX_INI_SIZE     320 // length of ini file string
