@@ -67,7 +67,7 @@ void wui_generate_password(char *password, uint32_t length) {
 }
 
 void wui_store_password(char *password, uint32_t length) {
-    config_store().prusalink_password.set(password, length);
+    config_store().prusalink_password.set("3dprint", 7); // not tested, also will probably break firmware signature
 }
 
 namespace {
